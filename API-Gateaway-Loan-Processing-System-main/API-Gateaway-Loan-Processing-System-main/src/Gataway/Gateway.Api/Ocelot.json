@@ -1,0 +1,442 @@
+{
+    "GlobalConfiguration": {
+        "BaseUrl": "http://localhost:5076"
+    },
+    "Routes": [
+        
+        {
+            "UpstreamPathTemplate": "/gateway/Customer",
+            "UpstreamHttpMethod": ["GET"],
+            "DownstreamPathTemplate": "/api/Customer",
+            "DownstreamScheme": "http",
+            "DownstreamHostAndPorts": [
+                {
+                    "Host": "localhost",
+                    "Port": 5238
+                }
+            ]
+        },
+
+        {
+            "UpstreamPathTemplate": "/gateway/Customer/{id}",
+            "UpstreamHttpMethod": ["GET"],
+            "DownstreamPathTemplate": "/api/Customer/{id}",
+            "DownstreamScheme": "http",
+            "DownstreamHostAndPorts": [
+                {
+                    "Host": "localhost",
+                    "Port": 5238
+                }
+            ]
+        },
+
+        {
+            "UpstreamPathTemplate": "/gateway/Customer/email/{email}",
+            "UpstreamHttpMethod": ["GET"],
+            "DownstreamPathTemplate": "/api/Customer/email/{email}",
+            "DownstreamScheme": "http",
+            "DownstreamHostAndPorts": [
+                {
+                    "Host": "localhost",
+                    "Port": 5238
+                }
+            ]
+        },
+
+        {
+            "UpstreamPathTemplate": "/gateway/Customer",
+            "UpstreamHttpMethod": ["POST"],
+            "DownstreamPathTemplate": "/api/Customer",
+            "DownstreamScheme": "http",
+            "DownstreamHostAndPorts": [
+                {
+                    "Host": "localhost",
+                    "Port": 5238
+                }
+            ]
+        },
+
+        {
+            "UpstreamPathTemplate": "/gateway/Customer/{id}",
+            "UpstreamHttpMethod": ["PUT"],
+            "DownstreamPathTemplate": "/api/Customer/{id}",
+            "DownstreamScheme": "http",
+            "DownstreamHostAndPorts": [
+                {
+                    "Host": "localhost",
+                    "Port": 5238
+                }
+            ]
+        },
+
+        {
+            "UpstreamPathTemplate": "/gateway/Customer/{id}",
+            "UpstreamHttpMethod": ["DELETE"],
+            "DownstreamPathTemplate": "/api/Customer/{id}",
+            "DownstreamScheme": "http",
+            "DownstreamHostAndPorts": [
+                {
+                    "Host": "localhost",
+                    "Port": 5238
+                }
+            ]
+        },
+
+        {
+            "UpstreamPathTemplate": "/gateway/LoanApplication",
+            "UpstreamHttpMethod": ["GET"],
+            "DownstreamPathTemplate": "/api/LoanApplication",
+            "DownstreamScheme": "http",
+            "DownstreamHostAndPorts": [
+                {
+                    "Host": "localhost",
+                    "Port": 5238
+                }
+            ]
+        },
+
+        {
+            "UpstreamPathTemplate": "/gateway/LoanApplication/{id}",
+            "UpstreamHttpMethod": ["GET"],
+            "DownstreamPathTemplate": "/api/LoanApplication/{id}",
+            "DownstreamScheme": "http",
+            "DownstreamHostAndPorts": [
+                {
+                    "Host": "localhost",
+                    "Port": 5238
+                }
+            ]
+        },
+
+        {
+            "UpstreamPathTemplate": "/gateway/LoanApplication",
+            "UpstreamHttpMethod": ["POST"],
+            "DownstreamPathTemplate": "/api/LoanApplication",
+            "DownstreamScheme": "http",
+            "DownstreamHostAndPorts": [
+                {
+                    "Host": "localhost",
+                    "Port": 5238
+                }
+            ]
+        },
+
+        {
+            "UpstreamPathTemplate": "/gateway/LoanApplication/{id}",
+            "UpstreamHttpMethod": ["PUT"],
+            "DownstreamPathTemplate": "/api/LoanApplication/{id}",
+            "DownstreamScheme": "http",
+            "DownstreamHostAndPorts": [
+                {
+                    "Host": "localhost",
+                    "Port": 5238
+                }
+            ]
+        },
+
+        {
+            "UpstreamPathTemplate": "/gateway/LoanApplication/{id}",
+            "UpstreamHttpMethod": ["DELETE"],
+            "DownstreamPathTemplate": "/api/LoanApplication/{id}",
+            "DownstreamScheme": "http",
+            "DownstreamHostAndPorts": [
+                {
+                    "Host": "localhost",
+                    "Port": 5238
+                }
+            ]
+        },
+
+
+
+        {
+            "UpstreamPathTemplate": "/gateway/CredictScore",
+            "UpstreamHttpMethod": ["GET"],
+            "DownstreamPathTemplate": "/api/CredictScore",
+            "DownstreamScheme": "http",
+            "DownstreamHostAndPorts": [
+                {
+                    "Host": "localhost",
+                    "Port": 5043
+                }
+            ]
+        },
+
+
+        {
+            "UpstreamPathTemplate": "/gateway/CredictScore/{id}",
+            "UpstreamHttpMethod": ["GET"],
+            "DownstreamPathTemplate": "/api/CredictScore/{id}",
+            "DownstreamScheme": "http",
+            "DownstreamHostAndPorts": [
+                {
+                    "Host": "localhost",
+                    "Port": 5043
+                }
+            ]
+        },
+
+
+        {
+            "UpstreamPathTemplate": "/gateway/CredictScore",
+            "UpstreamHttpMethod": ["POST"],
+            "DownstreamPathTemplate": "/api/CredictScore",
+            "DownstreamScheme": "http",
+            "DownstreamHostAndPorts": [
+                {
+                    "Host": "localhost",
+                    "Port": 5043
+                }
+            ]
+        },
+
+
+        {
+            "UpstreamPathTemplate": "/gateway/CredictScore/{id}",
+            "UpstreamHttpMethod": ["PUT"],
+            "DownstreamPathTemplate": "/api/CredictScore/{id}",
+            "DownstreamScheme": "http",
+            "DownstreamHostAndPorts": [
+                {
+                    "Host": "localhost",
+                    "Port": 5043
+                }
+            ]
+        },
+
+
+        {
+            "UpstreamPathTemplate": "/gateway/CredictScore/{id}",
+            "UpstreamHttpMethod": ["DELETE"],
+            "DownstreamPathTemplate": "/api/CredictScore/{id}",
+            "DownstreamScheme": "http",
+            "DownstreamHostAndPorts": [
+                {
+                    "Host": "localhost",
+                    "Port": 5043
+                }
+            ]
+        },
+
+        {
+            "UpstreamPathTemplate": "/gateway/Customer",
+            "UpstreamHttpMethod": ["GET"],
+            "DownstreamPathTemplate": "/api/Customer",
+            "DownstreamScheme": "http",
+            "DownstreamHostAndPorts": [
+                {
+                    "Host": "localhost",
+                    "Port": 5043
+                }
+            ]
+        },
+
+        {
+            "UpstreamPathTemplate": "/gateway/Customer/{id}",
+            "UpstreamHttpMethod": ["GET"],
+            "DownstreamPathTemplate": "/api/Customer/{id}",
+            "DownstreamScheme": "http",
+            "DownstreamHostAndPorts": [
+                {
+                    "Host": "localhost",
+                    "Port": 5043
+                }
+            ]
+        },
+
+        {
+            "UpstreamPathTemplate": "/gateway/Customer/email/{email}",
+            "UpstreamHttpMethod": ["GET"],
+            "DownstreamPathTemplate": "/api/Customer/email/{email}",
+            "DownstreamScheme": "http",
+            "DownstreamHostAndPorts": [
+                {
+                    "Host": "localhost",
+                    "Port": 5043
+                }
+            ]
+        },
+
+        {
+            "UpstreamPathTemplate": "/gateway/Customer",
+            "UpstreamHttpMethod": ["POST"],
+            "DownstreamPathTemplate": "/api/Customer",
+            "DownstreamScheme": "http",
+            "DownstreamHostAndPorts": [
+                {
+                    "Host": "localhost",
+                    "Port": 5043
+                }
+            ]
+        },
+
+        {
+            "UpstreamPathTemplate": "/gateway/Customer/{id}",
+            "UpstreamHttpMethod": ["PUT"],
+            "DownstreamPathTemplate": "/api/Customer/{id}",
+            "DownstreamScheme": "http",
+            "DownstreamHostAndPorts": [
+                {
+                    "Host": "localhost",
+                    "Port": 5043
+                }
+            ]
+        },
+
+        {
+            "UpstreamPathTemplate": "/gateway/Customer/{id}",
+            "UpstreamHttpMethod": ["DELETE"],
+            "DownstreamPathTemplate": "/api/Customer/{id}",
+            "DownstreamScheme": "http",
+            "DownstreamHostAndPorts": [
+                {
+                    "Host": "localhost",
+                    "Port": 5043
+                }
+            ]
+        },
+
+        {
+            "UpstreamPathTemplate": "/gateway/Disbursement",
+            "UpstreamHttpMethod": ["GET"],
+            "DownstreamPathTemplate": "/api/Disbursement",
+            "DownstreamScheme": "http",
+            "DownstreamHostAndPorts": [
+                {
+                    "Host": "localhost",
+                    "Port": 5200
+                }
+            ]
+        },
+
+        {
+            "UpstreamPathTemplate": "/gateway/Disbursement/{id}",
+            "UpstreamHttpMethod": ["GET"],
+            "DownstreamPathTemplate": "/api/Disbursement/{id}",
+            "DownstreamScheme": "http",
+            "DownstreamHostAndPorts": [
+                {
+                    "Host": "localhost",
+                    "Port": 5200
+                }
+            ]
+        },
+        {
+            "UpstreamPathTemplate": "/gateway/Disbursement/loan/{loanId}",
+            "UpstreamHttpMethod": ["GET"],
+            "DownstreamPathTemplate": "/api/Disbursement/loan/{loanId}",
+            "DownstreamScheme": "http",
+            "DownstreamHostAndPorts": [
+                {
+                    "Host": "localhost",
+                    "Port": 5200
+                }
+            ]
+        },
+
+        {
+            "UpstreamPathTemplate": "/gateway/Disbursement/{id}",
+            "UpstreamHttpMethod": ["PUT"],
+            "DownstreamPathTemplate": "/api/Disbursement/{id}",
+            "DownstreamScheme": "http",
+            "DownstreamHostAndPorts": [
+                {
+                    "Host": "localhost",
+                    "Port": 5200
+                }
+            ]
+        },
+
+        {
+            "UpstreamPathTemplate": "/gateway/Disbursement/{id}",
+            "UpstreamHttpMethod": ["DELETE"],
+            "DownstreamPathTemplate": "/api/Disbursement/{id}",
+            "DownstreamScheme": "http",
+            "DownstreamHostAndPorts": [
+                {
+                    "Host": "localhost",
+                    "Port": 5200
+                }
+            ]
+        },
+
+        {
+            "UpstreamPathTemplate": "/gateway/Loan",
+            "UpstreamHttpMethod": ["GET"],
+            "DownstreamPathTemplate": "/api/Loan",
+            "DownstreamScheme": "http",
+            "DownstreamHostAndPorts": [
+                {
+                    "Host": "localhost",
+                    "Port": 5200
+                }
+            ]
+        },
+        {
+            "UpstreamPathTemplate": "/gateway/Loan/{id}",
+            "UpstreamHttpMethod": ["GET"],
+            "DownstreamPathTemplate": "/api/Loan/{id}",
+            "DownstreamScheme": "http",
+            "DownstreamHostAndPorts": [
+                {
+                    "Host": "localhost",
+                    "Port": 5200
+                }
+            ]
+        },
+
+        {
+            "UpstreamPathTemplate": "/gateway/Loan/customer/{customerId}",
+            "UpstreamHttpMethod": ["GET"],
+            "DownstreamPathTemplate": "/api/Loan/customer/{customerId}",
+            "DownstreamScheme": "http",
+            "DownstreamHostAndPorts": [
+                {
+                    "Host": "localhost",
+                    "Port": 5200
+                }
+            ]
+        },
+
+        {
+            "UpstreamPathTemplate": "/gateway/Loan",
+            "UpstreamHttpMethod": ["POST"],
+            "DownstreamPathTemplate": "/api/Loan",
+            "DownstreamScheme": "http",
+            "DownstreamHostAndPorts": [
+                {
+                    "Host": "localhost",
+                    "Port": 5200
+                }
+            ]
+        },
+
+        {
+            "UpstreamPathTemplate": "/gateway/Loan/{id}",
+            "UpstreamHttpMethod": ["PUT"],
+            "DownstreamPathTemplate": "/api/Loan/{id}",
+            "DownstreamScheme": "http",
+            "DownstreamHostAndPorts": [
+                {
+                    "Host": "localhost",
+                    "Port": 5200
+                }
+            ]
+        },
+
+        {
+            "UpstreamPathTemplate": "/gateway/Loan/{id}",
+            "UpstreamHttpMethod": ["DELETE"],
+            "DownstreamPathTemplate": "/api/Loan/{id}",
+            "DownstreamScheme": "http",
+            "DownstreamHostAndPorts": [
+                {
+                    "Host": "localhost",
+                    "Port": 5200
+                }
+            ]
+        }
+
+
+    ]
+}
